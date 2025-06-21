@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "@socket.io/admin-ui": "^0.5.1",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.5.0",
+    "handlebars": "^4.7.8",
+    "mongoose": "^8.13.2",
+    "nodemailer": "^6.10.1",
+    "nodemailer-express-handlebars": "^7.0.0",
+    "passport": "^0.7.0",
+    "passport-github2": "^0.1.12",
+    "passport-google-oauth20": "^2.0.0",
+    "react-icons": "^5.5.0",
+    "socket.io": "^4.8.1",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1",
+    "ws": "^8.18.1"
+  }
+}
