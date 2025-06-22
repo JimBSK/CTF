@@ -5,7 +5,7 @@ RUN npm ci
 RUN npm run build
 
 FROM nginx:latest AS dist
-WORKDIR /var/www/frotnend
+WORKDIR /var/www/frontend
 COPY --from=builder /app/build .
 WORKDIR /etc/nginx
 COPY ./nginx.conf .
